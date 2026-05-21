@@ -1,5 +1,7 @@
 # StartUp Club Website
 
+Live website: https://files-mentioned-by-the-user-email.vercel.app
+
 Modern React website created for the StartUp Club Round 2 task. The project includes a responsive frontend, a Node.js/Express API for local development, Vercel-compatible serverless API routes, theme toggle, smooth scrolling, scroll animations, and clean setup instructions.
 
 ## Requirement Checklist
