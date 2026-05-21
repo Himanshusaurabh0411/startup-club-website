@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FiArrowRight, FiCalendar, FiZap } from "react-icons/fi";
 
-export default function Hero({ stats }) {
+export default function Hero({ profile, stats }) {
   return (
     <section
       className="relative isolate overflow-hidden pb-8 pt-28 sm:pt-32 lg:min-h-[84vh] lg:pb-4"
@@ -30,7 +30,7 @@ export default function Hero({ stats }) {
             transition={{ duration: 0.45 }}
           >
             <FiZap />
-            Campus founders start here
+            {profile?.bio || "From “What if?” to “Why not?”"}
           </motion.span>
           <motion.h1
             id="hero-title"
@@ -47,8 +47,8 @@ export default function Hero({ stats }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.65, delay: 0.16 }}
           >
-            Startup Club VIT Bhopal is building the next generation of innovators, founders, and
-            entrepreneurs.
+            {profile?.name || "Startup Club VIT Bhopal"} is building startup culture at VIT Bhopal
+            for innovators, founders, creators, and entrepreneurs.
           </motion.p>
           <motion.div
             className="mt-8 flex flex-col gap-4 sm:flex-row"
@@ -57,7 +57,7 @@ export default function Hero({ stats }) {
             transition={{ duration: 0.65, delay: 0.24 }}
           >
             <a className="primary-btn" href="#contact">
-              Join Community
+              {profile?.cta || "Join Community"}
               <FiArrowRight />
             </a>
             <a className="secondary-btn" href="#events">
@@ -77,7 +77,7 @@ export default function Hero({ stats }) {
           <div className="relative rounded-[1.5rem] border border-white/60 bg-midnight p-4 text-white shadow-glow sm:p-5 dark:border-white/10">
             <div className="flex items-center justify-between gap-4">
               <div>
-                <p className="text-sm font-bold uppercase text-electric">Startup dashboard</p>
+                <p className="text-sm font-bold uppercase text-electric">{profile?.handle || "@startup.vit"}</p>
                 <h2 className="mt-2 text-2xl font-black">Build. Pitch. Launch.</h2>
               </div>
               <img src="/assets/startup-club-logo.svg" alt="" className="h-16 w-16 rounded-full" />

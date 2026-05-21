@@ -5,9 +5,12 @@ GitHub repository: https://github.com/Himanshusaurabh0411/startup-club-website
 
 Premium React website for Startup Club VIT Bhopal, built for the recruitment task with a modern startup-focused interface, responsive layouts, animation, API integration, and Vercel-ready deployment.
 
+Public Instagram reference used for content direction: https://www.instagram.com/startup.vit/
+
 ## Features
 
 - Premium dark/light startup UI with the Startup Club SC logo
+- Public `@startup.vit` profile signals reflected in content, stats, events, and highlights
 - Responsive navbar with mobile hamburger menu
 - Strong hero section with animated background, glassmorphism, and CTA buttons
 - About section with mission, vision, why-join cards, and achievement stats

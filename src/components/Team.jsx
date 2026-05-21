@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import { FaGithub, FaInstagram } from "react-icons/fa6";
 import SectionHeader from "./SectionHeader.jsx";
 
 function initials(name) {
@@ -39,8 +39,8 @@ export default function Team({ team }) {
               <p className="mt-1 font-extrabold text-ocean dark:text-electric">{member.role}</p>
               <p className="mt-4 text-sm leading-6 text-slate-600 dark:text-slate-300">{member.focus}</p>
               <div className="mt-6 flex justify-center gap-3">
-                <a className="grid h-10 w-10 place-items-center rounded-2xl bg-ink text-white transition hover:-translate-y-1 hover:bg-ocean dark:bg-white/10" href={member.socials.linkedin} aria-label={`${member.name} LinkedIn`}>
-                  <FaLinkedinIn />
+                <a className="grid h-10 w-10 place-items-center rounded-2xl bg-ink text-white transition hover:-translate-y-1 hover:bg-ocean dark:bg-white/10" href={member.socials.instagram} aria-label={`${member.name} Instagram`}>
+                  <FaInstagram />
                 </a>
                 <a className="grid h-10 w-10 place-items-center rounded-2xl bg-ink text-white transition hover:-translate-y-1 hover:bg-ocean dark:bg-white/10" href={member.socials.github} aria-label={`${member.name} GitHub`}>
                   <FaGithub />

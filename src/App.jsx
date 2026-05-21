@@ -63,7 +63,7 @@ export default function App() {
         setMenuOpen={setMenuOpen}
       />
       <main>
-        <Hero stats={clubData.stats} />
+        <Hero profile={clubData.instagramProfile} stats={clubData.stats} />
         <About aboutCards={clubData.aboutCards} stats={clubData.stats} />
         <Events events={clubData.events} />
         <Programs programs={clubData.programs} />
