@@ -1,68 +1,160 @@
 export const clubData = {
   stats: [
     {
-      value: "120+",
-      label: "builders activated",
-      detail: "students connected through cohorts, jams, and founder circles"
+      value: "500+",
+      label: "Members",
+      detail: "students learning founder skills, product thinking, and startup execution"
     },
     {
-      value: "18",
-      label: "venture ideas tested",
-      detail: "early concepts moved from sketch to user feedback"
+      value: "50+",
+      label: "Events",
+      detail: "hackathons, workshops, founder talks, pitch nights, and build sessions"
     },
     {
-      value: "9",
-      label: "mentor sessions",
-      detail: "focused conversations with founders, operators, and alumni"
+      value: "20+",
+      label: "Mentors",
+      detail: "founders, alumni, operators, investors, and industry leaders"
+    },
+    {
+      value: "15+",
+      label: "Startup Collaborations",
+      detail: "ecosystem partnerships for exposure, feedback, and real opportunities"
+    }
+  ],
+  aboutCards: [
+    {
+      title: "Mission",
+      copy:
+        "Create a high-energy campus ecosystem where students can validate ideas, build products, pitch confidently, and learn by doing."
+    },
+    {
+      title: "Vision",
+      copy:
+        "Make VIT Bhopal a launchpad for student-led startups, bold experiments, and founders who solve meaningful problems."
+    },
+    {
+      title: "Why Join",
+      copy:
+        "Access practical workshops, mentor feedback, team-building opportunities, demo days, and a community that keeps you shipping."
     }
   ],
   programs: [
     {
-      title: "Idea Lab",
-      eyebrow: "Explore",
+      title: "Startup Bootcamp",
+      date: "Feb 2026",
+      type: "Program",
       copy:
-        "Weekly problem-discovery sessions where students turn campus observations into validated opportunity statements.",
-      tags: ["research", "validation", "problem fit"]
+        "A structured track covering problem discovery, validation, business models, branding, and MVP launch.",
+      tags: ["validation", "MVP", "strategy"]
     },
     {
-      title: "Build Sprint",
-      eyebrow: "Create",
+      title: "Founder Lab",
+      date: "Mar 2026",
+      type: "Program",
       copy:
-        "A short product sprint for landing pages, MVP prototypes, user interviews, and sharp demo narratives.",
-      tags: ["MVP", "design", "shipping"]
+        "Small founder circles where teams sharpen their ideas with weekly mentor reviews and customer research.",
+      tags: ["mentorship", "research", "execution"]
     },
     {
-      title: "Pitch Room",
-      eyebrow: "Present",
+      title: "Pitch Studio",
+      date: "Apr 2026",
+      type: "Program",
       copy:
-        "Practice rounds, pitch reviews, and feedback loops that help founders communicate traction with confidence.",
-      tags: ["story", "metrics", "feedback"]
+        "Deck reviews, storytelling drills, traction framing, and high-pressure pitch practice before demo day.",
+      tags: ["deck", "story", "demo"]
     }
   ],
   events: [
     {
-      date: "Week 01",
-      title: "Founder Signal",
-      copy:
-        "A founder talk focused on how to spot real problems, avoid vanity ideas, and choose first customers."
+      title: "Hackathons",
+      date: "12 Feb",
+      copy: "Rapid build weekends where teams prototype solutions, test assumptions, and demo working products.",
+      cta: "View format"
     },
     {
-      date: "Week 02",
-      title: "No-Code MVP Jam",
-      copy:
-        "Teams build clickable product journeys and test them with students before writing heavy code."
+      title: "Startup Pitch Competitions",
+      date: "28 Feb",
+      copy: "Pitch battles with founder-style judging across market clarity, traction, creativity, and execution.",
+      cta: "Explore rounds"
     },
     {
-      date: "Week 03",
-      title: "Demo Evening",
-      copy:
-        "Selected teams present prototypes, user insights, and next-step plans in a fast review format."
+      title: "Networking Sessions",
+      date: "14 Mar",
+      copy: "Curated founder mixers that connect builders, designers, developers, mentors, and early collaborators.",
+      cta: "Meet builders"
+    },
+    {
+      title: "Founder Talks",
+      date: "30 Mar",
+      copy: "Candid sessions with founders on product failures, funding journeys, hiring, and market timing.",
+      cta: "See speakers"
+    },
+    {
+      title: "Workshops",
+      date: "11 Apr",
+      copy: "Hands-on learning sprints covering no-code MVPs, landing pages, user interviews, and growth loops.",
+      cta: "Join workshop"
     }
   ],
-  toolkit: [
-    "Problem interview scripts",
-    "Landing page teardown checklist",
-    "Pitch deck review rubric",
-    "Campus beta-user board"
-  ]
+  team: [
+    {
+      name: "Aarav Mehta",
+      role: "President",
+      focus: "Strategy, partnerships, and founder programs",
+      socials: {
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/"
+      }
+    },
+    {
+      name: "Diya Sharma",
+      role: "Tech Lead",
+      focus: "Web, product prototypes, and technical workshops",
+      socials: {
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/"
+      }
+    },
+    {
+      name: "Kabir Rao",
+      role: "Events Lead",
+      focus: "Hackathons, founder talks, and campus activations",
+      socials: {
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/"
+      }
+    },
+    {
+      name: "Naina Verma",
+      role: "Design Lead",
+      focus: "Brand systems, pitch visuals, and experience design",
+      socials: {
+        linkedin: "https://www.linkedin.com/",
+        github: "https://github.com/"
+      }
+    }
+  ],
+  testimonials: [
+    {
+      quote: "Joining Startup Club changed my entrepreneurial journey. I finally learned how to validate ideas before building.",
+      name: "Riya Kapoor",
+      role: "Product builder"
+    },
+    {
+      quote: "The pitch sessions helped our team communicate the problem, traction, and solution with much more confidence.",
+      name: "Arjun Nair",
+      role: "Student founder"
+    },
+    {
+      quote: "The community pushes you to ship, talk to users, and keep improving instead of only discussing ideas.",
+      name: "Mehul Jain",
+      role: "MVP sprint participant"
+    }
+  ],
+  socials: {
+    email: "startupclub@vitbhopal.ac.in",
+    instagram: "https://www.instagram.com/",
+    linkedin: "https://www.linkedin.com/",
+    github: "https://github.com/Himanshusaurabh0411/startup-club-website"
+  }
 };

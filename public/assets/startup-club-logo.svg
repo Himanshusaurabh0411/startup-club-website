@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Startup Club VIT Bhopal logo</title>
+  <desc id="desc">Circular black Startup Club logo with blue and white SC monogram.</desc>
+  <rect width="512" height="512" fill="#0B1015"/>
+  <circle cx="256" cy="256" r="214" fill="#020202"/>
+  <path d="M189 202H272C286 202 298 213 298 227C298 241 286 252 272 252H198" stroke="#FFFFFF" stroke-width="34" stroke-linecap="round"/>
+  <path d="M187 309H271C285 309 297 298 297 284C297 270 285 259 271 259H197" stroke="#23A7E3" stroke-width="34" stroke-linecap="square"/>
+  <path d="M329 197C292 197 262 225 262 260C262 295 292 323 329 323C349 323 367 315 380 302" stroke="#FFFFFF" stroke-width="34" stroke-linecap="square"/>
+  <path d="M380 218C367 205 349 197 329 197C292 197 262 225 262 260" stroke="#23A7E3" stroke-width="34" stroke-linecap="square"/>
+  <path d="M173 309H246" stroke="#23A7E3" stroke-width="20" stroke-linecap="square"/>
+</svg>

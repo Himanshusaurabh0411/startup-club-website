@@ -1,48 +1,49 @@
-# StartUp Club Website
+# Startup Club VIT Bhopal Website
 
-Live website: https://files-mentioned-by-the-user-email.vercel.app
+Live demo: https://files-mentioned-by-the-user-email.vercel.app  
+GitHub repository: https://github.com/Himanshusaurabh0411/startup-club-website
 
-Modern React website created for the StartUp Club Round 2 task. The project includes a responsive frontend, a Node.js/Express API for local development, Vercel-compatible serverless API routes, theme toggle, smooth scrolling, scroll animations, and clean setup instructions.
+Premium React website for Startup Club VIT Bhopal, built for the recruitment task with a modern startup-focused interface, responsive layouts, animation, API integration, and Vercel-ready deployment.
 
-## Requirement Checklist
+## Features
 
-| Requirement | Status | Where |
-| --- | --- | --- |
-| React.js frontend | Done | `src/` |
-| Responsive design for mobile and laptop | Done | `src/styles/main.css` |
-| Modern and clean UI | Done | custom layout, theme tokens, responsive sections |
-| Navigation bar | Done | `src/components/Header.jsx` |
-| Hero section | Done | `src/components/Hero.jsx` |
-| Minimum 3 sections | Done | Programs, Events, Impact, Contact |
-| Footer | Done | `src/components/Footer.jsx` |
-| Node.js/Express backend | Done | `server/index.js` |
-| API integration | Done | `/api/club-data` and `/api/interest` |
-| Animations and smooth scrolling | Done | `useReveal` hook and CSS scroll behavior |
-| Theme toggle | Done | header icon button with local storage |
-| Creative UI/UX | Done | original club content, visual hero, event roadmap, contact flow |
-| Vercel deployment ready | Done | `vercel.json` and `api/` routes |
+- Premium dark/light startup UI with the Startup Club SC logo
+- Responsive navbar with mobile hamburger menu
+- Strong hero section with animated background, glassmorphism, and CTA buttons
+- About section with mission, vision, why-join cards, and achievement stats
+- Premium event cards for hackathons, pitch competitions, networking, founder talks, and workshops
+- Program cards for bootcamps, founder labs, and pitch studios
+- Core team section with role cards and social icons
+- Animated testimonial section
+- Contact form with validation and success notification
+- Scroll progress indicator
+- Loading animation
+- Smooth scrolling and hover interactions
+- Mock/real API integration through Express and Vercel serverless routes
 
 ## Tech Stack
 
-- React.js with Vite
-- Node.js and Express
-- Vercel serverless API routes
-- CSS modules through a single organized stylesheet
-- Lucide React icons
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Icons
+- Axios
+- Node.js
+- Express
+- Vercel serverless functions
 
-## Local Setup
+## Installation
 
 ```bash
 npm install
 npm run dev
 ```
 
-The app runs at:
+The local app runs at:
 
 - Frontend: `http://127.0.0.1:5173`
 - Express API: `http://localhost:5050`
-
-The Vite dev server proxies `/api` requests to the Express backend, so the frontend works locally without extra environment variables.
 
 ## Build
 
@@ -51,43 +52,58 @@ npm run build
 npm run preview
 ```
 
-## Deploy On Vercel
+## API Endpoints
 
-1. Push this folder to a GitHub repository.
-2. Open Vercel and import the repository.
-3. Use these settings:
-   - Framework: `Vite`
-   - Build command: `npm run build`
-   - Output directory: `dist`
-4. Deploy.
-
-The `api/` folder provides Vercel-compatible endpoints, so `/api/club-data` and `/api/interest` keep working after deployment.
+- `GET /api/club-data` returns stats, about cards, events, programs, team members, testimonials, and social links.
+- `POST /api/interest` accepts contact form submissions with `name`, `email`, and `message`.
 
 ## Folder Structure
 
 ```text
 .
 ├── api/                  # Vercel serverless API routes
-├── public/assets/         # Logo and hero visual assets
+├── public/assets/         # Logo and visual assets
 ├── server/                # Express backend for local development
 ├── src/
-│   ├── components/        # Reusable React sections
-│   ├── data/              # Shared website content
-│   ├── hooks/             # Scroll reveal hook
-│   ├── styles/            # Main responsive CSS
+│   ├── components/        # Reusable React sections and UI pieces
+│   ├── data/              # Shared mock/API content
+│   ├── styles/            # Tailwind entry and global styles
 │   ├── App.jsx
 │   └── main.jsx
+├── postcss.config.js
+├── tailwind.config.js
 ├── vercel.json
 └── vite.config.js
 ```
 
-## API Endpoints
+## Vercel Deployment
 
-- `GET /api/club-data` returns program, event, impact, and toolkit content.
-- `POST /api/interest` accepts `name`, `email`, and `interest` from the contact form.
+1. Push the repository to GitHub.
+2. Import the repository on Vercel.
+3. Use these settings:
+   - Framework: `Vite`
+   - Build command: `npm run build`
+   - Output directory: `dist`
+4. Deploy.
 
-## Submission Notes
+The `api/` folder keeps API routes working on Vercel without a separate backend server.
 
-- Keep the GitHub repository public or accessible to reviewers.
-- After deployment, submit both the GitHub repository link and the live Vercel link.
-- Before submitting, open the live site once on mobile width and laptop width to confirm the responsive layout.
+## Recruitment Checklist
+
+| Requirement | Status |
+| --- | --- |
+| React.js frontend | Complete |
+| Responsive design | Complete |
+| Modern clean UI | Complete |
+| Navigation bar | Complete |
+| Hero section | Complete |
+| Minimum 3 sections | Complete, includes 6+ sections |
+| Footer | Complete |
+| Theme toggle | Complete |
+| Smooth scrolling | Complete |
+| Framer Motion animations | Complete |
+| Hover interactions | Complete |
+| Loading animation | Complete |
+| Scroll progress indicator | Complete |
+| API integration | Complete |
+| Vercel deployment-ready | Complete |

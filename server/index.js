@@ -25,19 +25,19 @@ app.get("/api/club-data", (_request, response) => {
 });
 
 app.post("/api/interest", (request, response) => {
-  const { name, email, interest } = request.body || {};
+  const { name, email, interest, message } = request.body || {};
 
-  if (!name || !email || !interest) {
+  if (!name || !email || (!interest && !message)) {
     return response.status(400).json({
       ok: false,
-      message: "Name, email, and interest are required."
+      message: "Name, email, and a message are required."
     });
   }
 
   return response.status(201).json({
     ok: true,
     message: "Interest recorded locally.",
-    lead: { name, email, interest }
+    lead: { name, email, interest: interest || "General inquiry", message }
   });
 });
 

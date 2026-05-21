@@ -26,19 +26,19 @@ export default async function handler(request, response) {
   }
 
   try {
-    const { name, email, interest } = await readBody(request);
+    const { name, email, interest, message } = await readBody(request);
 
-    if (!name || !email || !interest) {
+    if (!name || !email || (!interest && !message)) {
       return response.status(400).json({
         ok: false,
-        message: "Name, email, and interest are required."
+        message: "Name, email, and a message are required."
       });
     }
 
     return response.status(201).json({
       ok: true,
       message: "Interest received.",
-      lead: { name, email, interest }
+      lead: { name, email, interest: interest || "General inquiry", message }
     });
   } catch (error) {
     return response.status(400).json({
