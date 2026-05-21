@@ -1,0 +1,36 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Innovation studio backdrop</title>
+  <desc id="desc">A layered startup workshop scene with product boards, graphs, and founder desks.</desc>
+  <rect width="1600" height="1000" fill="#14201E"/>
+  <rect x="0" y="650" width="1600" height="350" fill="#0E1716"/>
+  <path d="M0 710C222 610 378 718 564 640C733 569 860 482 1036 534C1196 582 1324 688 1600 586V1000H0V710Z" fill="#1C302D"/>
+  <rect x="180" y="170" width="430" height="290" rx="8" fill="#F7FAF8"/>
+  <rect x="218" y="212" width="120" height="22" rx="4" fill="#35D0BA"/>
+  <rect x="218" y="260" width="324" height="14" rx="4" fill="#CED8D3"/>
+  <rect x="218" y="296" width="260" height="14" rx="4" fill="#CED8D3"/>
+  <rect x="218" y="344" width="90" height="74" rx="8" fill="#FF725E"/>
+  <rect x="330" y="314" width="90" height="104" rx="8" fill="#F4BD4A"/>
+  <rect x="442" y="282" width="90" height="136" rx="8" fill="#35D0BA"/>
+  <rect x="760" y="122" width="520" height="330" rx="8" fill="#172624"/>
+  <path d="M812 374L918 284L1006 326L1130 214L1224 258" stroke="#35D0BA" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="918" cy="284" r="16" fill="#F4BD4A"/>
+  <circle cx="1130" cy="214" r="16" fill="#FF725E"/>
+  <rect x="818" y="168" width="130" height="18" rx="4" fill="#F7FAF8" fill-opacity=".88"/>
+  <rect x="818" y="202" width="220" height="12" rx="4" fill="#F7FAF8" fill-opacity=".3"/>
+  <rect x="130" y="720" width="1320" height="74" rx="8" fill="#F7FAF8" fill-opacity=".12"/>
+  <rect x="250" y="615" width="220" height="144" rx="8" fill="#243A37"/>
+  <rect x="280" y="646" width="160" height="16" rx="4" fill="#F7FAF8" fill-opacity=".68"/>
+  <rect x="280" y="684" width="112" height="54" rx="8" fill="#35D0BA"/>
+  <rect x="1030" y="586" width="270" height="174" rx="8" fill="#243A37"/>
+  <rect x="1066" y="622" width="92" height="92" rx="46" fill="#FF725E"/>
+  <rect x="1182" y="632" width="76" height="14" rx="4" fill="#F7FAF8" fill-opacity=".7"/>
+  <rect x="1182" y="666" width="96" height="14" rx="4" fill="#F7FAF8" fill-opacity=".35"/>
+  <path d="M639 780C677 713 729 692 786 728C836 759 878 748 919 700" stroke="#F4BD4A" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="760" cy="734" r="44" fill="#35D0BA"/>
+  <path d="M760 688V635" stroke="#35D0BA" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="875" cy="696" r="35" fill="#FF725E"/>
+  <path d="M875 660V620" stroke="#FF725E" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="654" cy="778" r="31" fill="#F4BD4A"/>
+  <path d="M654 746V704" stroke="#F4BD4A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M662 823H865C929 823 983 868 996 930H532C544 868 598 823 662 823Z" fill="#223835"/>
+</svg>
