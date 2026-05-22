@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { FiArrowRight, FiCalendar, FiZap } from "react-icons/fi";
 
+const smoothEntrance = { duration: 0.72, ease: [0.22, 1, 0.36, 1] };
+
 export default function Hero({ profile, stats }) {
   return (
     <section
@@ -27,17 +29,17 @@ export default function Hero({ profile, stats }) {
             className="pill"
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.45 }}
+            transition={smoothEntrance}
           >
             <FiZap />
-            {profile?.bio || "From “What if?” to “Why not?”"}
+            {profile?.bio || "Startup culture at VIT Bhopal"}
           </motion.span>
           <motion.h1
             id="hero-title"
             className="mt-7 max-w-4xl text-5xl font-black leading-[1.02] text-ink sm:text-6xl lg:text-6xl 2xl:text-7xl dark:text-white"
             initial={{ opacity: 0, y: 28 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.65, delay: 0.08 }}
+            transition={{ ...smoothEntrance, delay: 0.08 }}
           >
             Empowering Ideas Into Successful Startups
           </motion.h1>
@@ -45,7 +47,7 @@ export default function Hero({ profile, stats }) {
             className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl dark:text-slate-300"
             initial={{ opacity: 0, y: 28 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.65, delay: 0.16 }}
+            transition={{ ...smoothEntrance, delay: 0.16 }}
           >
             {profile?.name || "Startup Club VIT Bhopal"} is building startup culture at VIT Bhopal
             for innovators, founders, creators, and entrepreneurs.
@@ -54,7 +56,7 @@ export default function Hero({ profile, stats }) {
             className="mt-8 flex flex-col gap-4 sm:flex-row"
             initial={{ opacity: 0, y: 28 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.65, delay: 0.24 }}
+            transition={{ ...smoothEntrance, delay: 0.24 }}
           >
             <a className="primary-btn" href="#contact">
               {profile?.cta || "Join Community"}
@@ -71,7 +73,7 @@ export default function Hero({ profile, stats }) {
           className="glass-panel relative overflow-hidden rounded-[2rem] p-5 sm:p-7"
           initial={{ opacity: 0, scale: 0.94, y: 30 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.22 }}
+          transition={{ ...smoothEntrance, delay: 0.22 }}
         >
           <div className="absolute right-0 top-0 h-40 w-40 rounded-full bg-ocean/25 blur-3xl" />
           <div className="relative rounded-[1.5rem] border border-white/60 bg-midnight p-4 text-white shadow-glow sm:p-5 dark:border-white/10">

@@ -1,72 +1,72 @@
 export const clubData = {
   stats: [
     {
-      value: "407",
-      label: "Instagram followers",
-      detail: "public community reach from @startup.vit"
+      value: "500+",
+      label: "Members",
+      detail: "students learning founder skills, product thinking, and startup execution"
     },
     {
-      value: "73",
-      label: "Posts",
-      detail: "public Instagram content around club culture and events"
+      value: "50+",
+      label: "Events",
+      detail: "hackathons, workshops, founder talks, pitch nights, and build sessions"
     },
     {
-      value: "7",
-      label: "Story highlights",
-      detail: "Team, Moments, Advitya, Jugaad Junction, Start X, Nirman, and more"
+      value: "20+",
+      label: "Mentors",
+      detail: "founders, alumni, operators, investors, and industry leaders"
     },
     {
-      value: "1",
-      label: "Startup culture",
-      detail: "a focused campus movement at VIT Bhopal"
+      value: "15+",
+      label: "Startup Collaborations",
+      detail: "ecosystem partnerships for exposure, feedback, and real opportunities"
     }
   ],
   instagramProfile: {
     handle: "@startup.vit",
     name: "The Startup Club, VIT Bhopal",
     category: "Community",
-    bio: "From “What if?” to “Why not?”",
-    cultureLine: "Startup Culture @vit.bhopal",
-    cta: "Join the Revolution",
+    bio: "Startup culture at VIT Bhopal",
+    cultureLine: "Ideas. Builders. Founders.",
+    cta: "Join Community",
     url: "https://www.instagram.com/startup.vit/"
   },
   aboutCards: [
     {
       title: "Mission",
       copy:
-        "Take students from “What if?” to “Why not?” through practical startup culture, community energy, and real campus activations."
+        "Create a high-energy campus ecosystem where students can validate ideas, build products, pitch confidently, and learn by doing."
     },
     {
       title: "Vision",
       copy:
-        "Build VIT Bhopal into a place where innovators, founders, creators, and operators can meet, test ideas, and create momentum."
+        "Make VIT Bhopal a launchpad for student-led startups, bold experiments, and founders who solve meaningful problems."
     },
     {
       title: "Why Join",
       copy:
-        "Join a visible community with active posts, moments, team stories, startup programs, event energy, and culture-led learning."
+        "Access practical workshops, mentor feedback, team-building opportunities, demo days, and a community that keeps you shipping."
     }
   ],
   programs: [
     {
       title: "START X",
-      date: "Highlight",
-      type: "Instagram program",
+      date: "Program",
+      type: "Founder pathway",
       copy:
-        "A public club highlight around startup learning, technology, and founder-style student energy.",
+        "A startup learning pathway inspired by the club's public identity, built for students moving from idea to launch plan.",
       tags: ["startup", "tech", "community"]
     },
     {
       title: "NIRMAN 1.0",
-      date: "Highlight",
+      date: "Build track",
       type: "Build track",
       copy:
-        "A creation-focused initiative that fits the club's build, pitch, and launch identity.",
+        "A creation-focused track where teams prototype, test assumptions, and shape a usable product experience.",
       tags: ["build", "launch", "execution"]
     },
     {
       title: "Jugaad Junction",
-      date: "Highlight",
+      date: "Innovation lab",
       type: "Innovation zone",
       copy:
         "A creative problem-solving space inspired by the classic startup ability to make useful things happen with limited resources.",
@@ -77,96 +77,72 @@ export const clubData = {
     {
       title: "Hackathons",
       date: "Build sprint",
-      copy: "Fast-paced build weekends inspired by the club's NIRMAN 1.0 energy, where teams turn rough ideas into working MVPs.",
+      copy: "Fast-paced build weekends where teams turn rough ideas into working MVPs and demo them with confidence.",
       cta: "Start building"
     },
     {
       title: "Startup Pitch Competitions",
       date: "Pitch room",
-      copy: "Founder-style pitch battles connected to START X, with sharp storytelling, validation, market thinking, and feedback.",
+      copy: "Founder-style pitch battles with sharp storytelling, validation, market thinking, and practical feedback.",
       cta: "Practice pitch"
     },
     {
       title: "Networking Sessions",
-      date: "Moments",
+      date: "Mixer",
       copy: "Community mixers that help builders meet collaborators, operators, designers, and people who can move ideas forward.",
       cta: "Meet builders"
     },
     {
       title: "Founder Talks",
       date: "Speaker track",
-      copy: "Sessions around real founder journeys, including public highlight themes like Rajat Sood and startup learning moments.",
+      copy: "Candid sessions with founders and operators about problem discovery, product decisions, funding, and execution.",
       cta: "Hear stories"
     },
     {
       title: "Workshops",
       date: "Learning lab",
-      copy: "Hands-on sessions for idea validation, growth, trading literacy, and practical execution inspired by recent public post themes.",
+      copy: "Hands-on sessions for idea validation, landing pages, user interviews, growth, finance literacy, and startup tooling.",
       cta: "Join workshop"
     },
     {
       title: "ADVITYA’26",
-      date: "Public highlight",
-      copy: "A major visible campus moment featured by the club, showing event presence and student engagement.",
-      cta: "View highlight"
-    },
-    {
-      title: "Rang & Ruckus",
-      date: "Advitya event",
-      copy: "A high-energy club activation connected with creativity, challenges, and a neon badminton experience.",
-      cta: "Explore vibe"
-    },
-    {
-      title: "Neon Badminton",
-      date: "Campus first",
-      copy: "A fresh campus experience positioned around glow, energy, and memorable student participation.",
-      cta: "See moment"
-    },
-    {
-      title: "Rajat Sood",
-      date: "Highlight",
-      copy: "A public highlight name from the profile, useful for speaker, mentor, or event storytelling on the site.",
-      cta: "Know more"
-    },
-    {
-      title: "StockGro Trading Energy",
-      date: "Public posts",
-      copy: "Recent public post themes include learning, trading, strategies, and smarter growth with StockGro.",
-      cta: "Learn smarter"
+      date: "Campus activation",
+      copy: "A large-scale event presence shaped for visibility, student energy, startup games, and memorable club experiences.",
+      cta: "Explore event"
     }
   ],
   team: [
     {
-      name: "THE TEAM",
-      role: "Club identity",
-      focus: "The visible public team highlight for Startup Club VIT Bhopal.",
+      name: "Aarav Mehta",
+      role: "President",
+      focus: "Strategy, partnerships, and founder programs.",
       socials: {
         instagram: "https://www.instagram.com/startup.vit/",
         github: "https://github.com/Himanshusaurabh0411/startup-club-website"
       }
     },
     {
-      name: "The Handlers",
-      role: "Operations crew",
-      focus: "Public post theme representing the people who handle execution behind the scenes.",
+      name: "Diya Sharma",
+      role: "Tech Lead",
+      focus: "Web experiences, prototypes, and technical workshops.",
       socials: {
         instagram: "https://www.instagram.com/startup.vit/",
         github: "https://github.com/Himanshusaurabh0411/startup-club-website"
       }
     },
     {
-      name: "The Core",
-      role: "Core team",
-      focus: "Public post theme for the central team shaping club culture and direction.",
+      name: "Kabir Rao",
+      role: "Events Lead",
+      focus: "Hackathons, founder talks, and campus activations.",
       socials: {
         instagram: "https://www.instagram.com/startup.vit/",
         github: "https://github.com/Himanshusaurabh0411/startup-club-website"
       }
     },
     {
-      name: "The OG Teams",
-      role: "Legacy builders",
-      focus: "Public post theme celebrating the teams and people who built the club's momentum.",
+      name: "Naina Verma",
+      role: "Design Lead",
+      focus: "Brand systems, pitch visuals, and experience design.",
       socials: {
         instagram: "https://www.instagram.com/startup.vit/",
         github: "https://github.com/Himanshusaurabh0411/startup-club-website"

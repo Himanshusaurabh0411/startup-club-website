@@ -13,7 +13,7 @@ export default function Events({ events }) {
           copy="Every event is designed around action: meet collaborators, learn founder skills, build something real, and get sharper feedback."
         />
 
-        <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-5">
+        <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {events.map((event, index) => (
             <motion.article
               className="group glass-panel min-h-[22rem] rounded-[2rem] p-5"
@@ -21,7 +21,7 @@ export default function Events({ events }) {
               initial={{ opacity: 0, y: 28 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.25 }}
-              transition={{ duration: 0.5, delay: index * 0.07 }}
+              transition={{ duration: 0.62, ease: [0.22, 1, 0.36, 1], delay: index * 0.06 }}
               whileHover={{ y: -10 }}
             >
               <div className="flex items-center justify-between">
